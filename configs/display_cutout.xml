@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Display cutout configuration for daisy (waterdrop notch) -->
+<displayCutout>
+    <boundingRect left="490" top="0" right="590" bottom="90" />
+</displayCutout>

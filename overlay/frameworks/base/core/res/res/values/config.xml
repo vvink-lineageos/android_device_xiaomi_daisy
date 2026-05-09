@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Notch / display cutout -->
+    <string name="config_mainBuiltInDisplayCutout">
+        M 0,0 L 0,90 L 70,90 A 40,40 0 0 1 -70,90 L -70,90 L 0,90 Z
+        @left
+    </string>
+    <!-- Screen size -->
+    <integer name="config_screenWidth">1080</integer>
+    <integer name="config_screenHeight">2280</integer>
+</resources>

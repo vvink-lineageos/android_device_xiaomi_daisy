@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Device-specific HIDL manifest for Xiaomi Mi A2 Lite (daisy)
+     Extends msm8953-common manifest. Add daisy-specific interfaces here. -->
+<manifest version="1.0" type="device">
+</manifest>
