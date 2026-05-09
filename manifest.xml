@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Device-specific HIDL manifest for Xiaomi Mi A2 Lite (daisy)
-     Extends msm8953-common manifest. Add daisy-specific interfaces here. -->
 <manifest version="1.0" type="device">
+    <!-- A/B boot control -->
+    <hal format="hidl">
+        <name>android.hardware.boot</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IBootControl</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </manifest>
