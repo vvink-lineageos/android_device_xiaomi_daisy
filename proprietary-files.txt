@@ -61,8 +61,7 @@ vendor/lib/libmmqjpegdma.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
--vendor/lib/libts_detected_face_hal.so
--vendor/lib/libts_face_beautify_hal.so
+# libts_detected_face_hal.so and libts_face_beautify_hal.so not present in MIUI 11
 
 # Camera sensors — daisy: IMX486 (main) + OV5675 (front) + depth sensor
 # TODO: update sensor lib names after ROM dump analysis
