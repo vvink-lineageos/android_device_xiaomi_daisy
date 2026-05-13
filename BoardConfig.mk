@@ -17,8 +17,7 @@ TARGET_SUPPORT_HAL1 := false
 # Display
 TARGET_SCREEN_DENSITY := 430
 
-# Filesystem
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+# Filesystem — system-as-root is default in Android 14, no flag needed
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
 
