@@ -42,12 +42,10 @@ PRODUCT_PACKAGES += \
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
-    bootctrl.msm8953.recovery
 
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service \
-    bootctrl.msm8953
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
@@ -59,8 +57,6 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8953 \
-    libmm-qcamera
 
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -84,10 +80,6 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.goodix.sh \
-    init.recovery.qcom.rc \
-    init.recovery.qcom.usb.rc \
-    init.daisy.rc
 
 # Sensors
 PRODUCT_COPY_FILES += \
