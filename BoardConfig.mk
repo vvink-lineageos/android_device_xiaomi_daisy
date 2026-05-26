@@ -26,6 +26,9 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := daisy_defconfig
+# LK bootloader (Android One 8.1) never passes androidboot.force_normal_boot=1,
+# so bake it in to prevent init from always entering recovery mode on normal boot.
+BOARD_KERNEL_CMDLINE += androidboot.force_normal_boot=1
 
 # Partitions
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 55087422464
